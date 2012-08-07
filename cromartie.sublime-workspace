@@ -1,0 +1,299 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Weig",
+				"WeigthedShape	class"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "CromartieMain.hx",
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Unix",
+				"name": "package ;"
+			}
+		},
+		{
+			"file": "/home/aggelos/dev/workspace/Cromartie/build.hxml",
+			"settings":
+			{
+				"buffer_size": 372,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "package org.aggelos.cromartie.tile;\n\nimport org.aggelos.cromartie.Shape;\n\nclass WeigthedShape implements Shape{\n\n    private var innerShape:Shape;\n\n    public new(shape:Shape) {\n    	this.innerShape = shape;\n    }\n\n\n    function getHeight():Int {\n    	return innerShape.getHeight();\n    }\n\n    function getWidth():Int {\n    	return innerShape.getWidth();\n    }\n    \n    function getDepth():Int;\n    \n    function getX():Int;\n    function getY():Int;\n    function getPoint2D():Point2D; \n    \n    function getAbsolutePosition():Point2D;\n    function getAbsoluteDepth():Int;\n    \n    function getContainer():ShapeContainer;\n    function getRotation():Float;\n    \n    function move(position:Point2D):Void;\n    \n    function rotate(angle:Float):Void;\n    \n    function drawLine(from:Point2D,to:Point2D):Void;\n    function drawCircle(center:point2D,diameter:Int):Void;\n    \n    function getParent():ShapeContainer;\n    \n    function draw():Void;\n    function clear():Void;\n\n\n}",
+			"file": "tile/WeigthedShape.hx",
+			"file_size": 965,
+			"file_write_time": 1344271242000000,
+			"settings":
+			{
+				"buffer_size": 970,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "draw/Shape.hx",
+			"settings":
+			{
+				"buffer_size": 718,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 340.0,
+		"selected_items":
+		[
+			[
+				"Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/aggelos/dev/workspace/Cromartie/src/org/aggelos/cromartie/tile/Tile.hx",
+		"/home/aggelos/dev/workspace/Cromartie/src/org/aggelos/cromartie/tile/TileMap.hx",
+		"/home/aggelos/dev/workspace/Cromartie/src/org/aggelos/cromartie/draw/Animated.hx",
+		"/home/aggelos/dev/workspace/Cromartie/src/org/aggelos/cromartie/draw/Point2D.hx",
+		"/home/aggelos/dev/workspace/Cromartie/src/org/aggelos/cromartie/cromartie.sublime-project"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "CromartieMain.hx",
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "package ;",
+							"haxe-build-id": 0,
+							"syntax": "Packages/HaXe/HaXe.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/aggelos/dev/workspace/Cromartie/build.hxml",
+					"settings":
+					{
+						"buffer_size": 372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								372,
+								372
+							]
+						],
+						"settings":
+						{
+							"haxe-build-id": 0,
+							"syntax": "Packages/HaXe/Hxml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tile/WeigthedShape.hx",
+					"settings":
+					{
+						"buffer_size": 970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								394,
+								394
+							]
+						],
+						"settings":
+						{
+							"haxe-build-id": 0,
+							"syntax": "Packages/HaXe/HaXe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "draw/Shape.hx",
+					"settings":
+					{
+						"buffer_size": 718,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								715,
+								715
+							]
+						],
+						"settings":
+						{
+							"haxe-build-id": 0,
+							"syntax": "Packages/HaXe/HaXe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.haxe":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true
+}

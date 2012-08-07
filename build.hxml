@@ -1,0 +1,24 @@
+-cp src
+
+# Uncomment the desirable target
+# JavaScript target
+-js target/Cromartie.js
+
+# SWF 9 target
+# -swf9 target/Cromartie.swf
+
+# ActionScript3 target
+# -as3 target
+
+# Neko target
+# -neko target/Cromartie.n
+
+# PHP target
+# -php target
+
+# C++ target
+# -cpp target
+
+# Uncomment and place your main class with package
+ -main org.aggelos.cromartie.CromartieMain
+ -lib awe6
